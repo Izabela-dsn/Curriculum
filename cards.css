@@ -1,0 +1,22 @@
+main {
+  display: flex;
+}
+
+.card {
+  width: 20rem;
+  height: 20rem;
+  background: rgb(124, 147, 190);
+  border-radius: 5%;
+  margin: 7rem auto;
+}
+
+.card li {
+  list-style: none;
+  text-align: center;
+  padding: 2rem 0;
+  color: white;
+}
+
+.card img {
+  margin: 2rem 6rem;
+}

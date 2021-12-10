@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: darkblue;
+  color: white;
+}
+
+nav a {
+  padding: 0.8rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+nav a:hover {
+  color: goldenrod;
+}
+
+section,
+hr {
+  margin: 0 10rem 2rem 10rem;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sobre .avatar {
+  width: 30%;
+  clip-path: circle(90px at 11rem 7rem);
+}
+
+.experiencia h3,
+.escolaridade h3 {
+  margin-top: 2rem;
+}
+
+footer {
+  padding: 0.5rem 0;
+  text-align: center;
+  background: darkblue;
+  color: white;
+}
+footer h3 {
+  font: 300 16px 'Lato';
+}
