@@ -1,0 +1,16 @@
+.mini-cards {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.mini-card {
+  width: 10rem;
+  background: rgb(5, 19, 46);
+  padding: 1rem 0;
+  border-radius: 5%;
+  margin: 5rem auto;
+  list-style: none;
+  text-align: center;
+  color: white;
+}

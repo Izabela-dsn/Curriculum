@@ -5,7 +5,8 @@ main {
 .card {
   width: 20rem;
   height: 20rem;
-  background: rgb(124, 147, 190);
+  background: rgb(5, 19, 46);
+  /*background: rgb(124, 147, 190);*/
   border-radius: 5%;
   margin: 7rem auto;
 }
