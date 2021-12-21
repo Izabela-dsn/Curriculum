@@ -14,3 +14,25 @@
   text-align: center;
   color: white;
 }
+
+@media (max-width: 1024px) {
+  .mini-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 5rem auto;
+  }
+  .mini-card {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .mini-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -60,3 +60,67 @@ footer {
 footer h3 {
   font: 300 16px 'Lato';
 }
+
+/* responsividade */
+@media (max-width: 1024px) {
+  .sobre .avatar {
+    width: 30%;
+    clip-path: circle(70px at 7rem 4.4rem);
+  }
+  .sobre {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .sobre .avatar {
+    width: 35%;
+    clip-path: circle(70px at 7rem 4.5rem);
+  }
+  .sobre {
+    font-size: 12px;
+  }
+  section,
+  hr {
+    margin: 0 5rem 2rem 5rem;
+  }
+  .experiencia h3,
+  .escolaridade h3 {
+    font-size: 16px;
+  }
+  .experiencia p,
+  .escolaridade p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 18px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+  .titulo {
+    font-size: 16px;
+  }
+  .sobre .avatar {
+    width: 30%;
+    clip-path: circle(35px at 4rem 2.5rem);
+  }
+  .sobre {
+    font-size: 10px;
+  }
+  section,
+  hr {
+    margin: 0 2.5rem 2rem 2.5rem;
+  }
+  .experiencia h3,
+  .escolaridade h3 {
+    font-size: 14px;
+  }
+  .experiencia p,
+  .escolaridade p,
+  li {
+    font-size: 12px;
+  }
+}
