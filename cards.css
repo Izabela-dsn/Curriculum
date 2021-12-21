@@ -21,3 +21,51 @@ main {
 .card img {
   margin: 2rem 6rem;
 }
+
+@media (max-width: 1024px) {
+  main {
+    /*flex-direction: column;*/
+  }
+  .card {
+    width: 15rem;
+    height: 15rem;
+  }
+  .card li {
+    padding: 1rem 0;
+    font-size: 16px;
+  }
+  .card img {
+    width: 50%;
+    margin: 1rem 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 12rem;
+    height: 12rem;
+  }
+  .card li {
+    padding: 0.5rem 0.2rem;
+    font-size: 14px;
+  }
+  .card img {
+    width: 40%;
+    margin: 1rem 4rem;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
+  .card {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem auto;
+  }
+  .card li {
+    font-size: 14px;
+  }
+  .card img {
+    margin: 1rem 3.5rem;
+  }
+}
